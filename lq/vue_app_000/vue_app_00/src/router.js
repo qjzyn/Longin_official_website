@@ -1,0 +1,21 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+import HelloContainer from "./components/HelloWorld.vue"
+import Home from "./components/weixin/Home.vue"
+
+//#为Exam01.vue 组件指定访问路径
+//1.在router.js引入组件
+
+//#学子商城
+//（1）登录网页
+import Login from './components/Login.vue'
+
+
+
+Vue.use(Router)
+//http://127.0.0.1:8080/#/Login
+export default new Router({
+  routes: [
+    {path:'/Login',component:Login}
+  ]
+})

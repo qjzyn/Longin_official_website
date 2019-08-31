@@ -1,0 +1,36 @@
+{
+	"status":1,
+	"result":{
+		"totalMoney":59,
+		"list":[
+			{
+				"productId":"60001",
+				"productName":"浪琴表新月系列",
+				"productPrice":13800,
+				"productQuentity":1,
+				"productImage":"../image/shangpin01.jpg",
+				"parts":[
+					{
+						"partsId":"10001",
+						"partsName":"浪琴折叠伞"
+					}
+				]
+			},
+			{
+				"productId":"60002",
+				"productName":"浪琴表名匠系列",
+				"productPrice":15800,
+				"productQuentity":1,
+				"productImage":"../image/shangpin02.jpg",
+				"parts":[
+					{
+						"partsId":"10003",
+						"partsName":"签字笔"
+					}
+				]
+			}
+		]
+	},
+	"message":""
+}
+

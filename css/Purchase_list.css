@@ -1,0 +1,252 @@
+.purchase_list{
+	width: 1500px;
+	/*background: red;*/
+	/*height: 500px;	*/	  /*测试*/
+	margin:  auto;
+}
+.purchase_list_banner{
+	background-image: url("../image/购买列表_banner.jpg");
+	height: 700px;
+	width: 1500px;
+}
+.purchase_list_banner_nav{
+	width: 1500px;
+	height: 700px;
+	padding:150px 100px ;
+}
+.purchase_list_banner_nav>h1{
+	font-size: 4rem;
+	font-weight: 300;
+	letter-spacing: .2px;
+	color: #fff;
+	padding-bottom: 30px;
+}
+.purchase_list_banner_nav>p{
+	font-size: 1.7rem;
+    line-height: 2.6rem;
+    color: #fff;
+    letter-spacing: -0.2px;
+    padding-top: 50px;
+}
+/*内容开始*/
+.purchase_list_nav{
+	width: 1500px;
+	background: #EFF1F3;
+	padding-bottom: 100px;
+}
+/*内容导航栏*/
+.Content_navigation_bar{
+	height: 100px;
+	width: 1200px;
+	margin: auto;
+	/*border: 1px solid red;	*/		/*测试*/
+}
+/*面包屑导航*/
+.Content_navigation_bar_left{
+	width: 400px;
+	/*background: green;	*/		/*测试*/
+	height: 50px;
+	margin: 25px 0px;
+	color:#002744;
+	line-height: 50px;
+	float: left;
+}
+.path{
+padding-top: 19px;
+padding-bottom: 19px;
+margin-bottom: 0;
+line-height: 20px;
+border-top: 1px solid#eff1f3;
+border-bottom: 1px solid#eff1f3;
+display: flex;
+}
+.path_li + .path_li::before{
+	content: "/";
+	display: inline-block;
+}
+.path_li>a{
+	color: #002744;
+	padding-right: 5px;
+}
+.Content_navigation_bar_left>a{
+	font-size: 20px;
+	color:#002744;
+}
+.Content_navigation_bar_right{
+	width: 400px;
+	/*background: yellow;*/				/*测试*/
+	height: 50px;
+	margin: 25px 0px;
+	line-height: 50px;
+	float: right;
+}
+.Content_navigation_bar_right>p{
+	float: left;
+	font-size: 20px;
+	color:#002744;
+	font-weight: bold;
+}
+/*下拉菜单*/
+.Content_navigation_bar_right_Drop-down_menu>ul {
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid#C7CCD0;
+    float: left;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 30px;
+}
+.Content_navigation_bar_right_Drop-down_menu>li {
+    float: left;
+}
+.Content_navigation_bar_right_Drop-down_menu>li a, .dropbtn {
+    display: inline-block;
+    color: #003150;
+    text-align: center;
+    width: 180px;
+    text-decoration: none;
+}
+.Content_navigation_bar_right_Drop-down_menu>li a:hover, .dropdown:hover .dropbtn {
+    background-color: #003150;
+    color: #fff;
+    transition:all	ease	0.3s; ;
+}
+.Content_navigation_bar_right_Drop-down_menu>li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fafafa;
+    min-width: 178px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    color: white;
+    background-color: #ABB0B3;
+}
+.show {
+    display: block;
+}
+.Screening_button{
+	height: 50px;
+	width: 50px;
+	background: #FFF6FF;
+	float: left;
+	margin-left: 30px;
+}
+/*商品介绍*/
+.Content_Introduction{
+	width: 800px;
+	/*background: green; */           /*测试*/
+	margin:  auto;
+	text-align: center;
+	padding-bottom:200px ;
+}
+.Content_Introduction>h1{
+	color:#737373 ;
+
+}
+.Content_Introduction>p{
+	color:#003150 ;
+	margin: 30px 0;
+}
+.Content_Introduction>a>div{
+	width: 65px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #003150;
+	margin: auto;
+	color:#003150 ;
+}
+/*商品列表*/
+.Content_nav{
+	width: 1200px;
+	/*height: 800px;	*/							/*测试*/
+	background:#EFF1F3;
+	margin: auto;
+}
+.Content_nav>div{
+	width: 1200px;
+	height: 700px;							
+	/*background: green;	*/				/*测试*/
+	
+}
+.Content_nav>div>a>div{
+	width: 390px;
+	height: 666px;
+	background: #fff;
+	float: left;
+	margin: 10px 5px;
+	position: relative;
+}
+.Hot_selling{
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	background: #C7CCD0;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+}
+.Content_nav>div>a>div>img{
+	width: 387px;
+	height: 500px;
+}
+.Content_nav_Commodity_price{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width:390px;
+	background:yellow;
+	text-align: center;
+	animation: price linear 1.0s ;
+	background: rgba(243,2343, 243, 0.45);
+}
+@keyframes price{
+	0%{height:0px;}
+    100%{height:247px;}
+}
+.Content_nav_Commodity_price>p:nth-child(1){
+	font-size: 20px;
+	color: #84888b;
+	font-weight: bold;
+	padding: 10px 0;
+}
+.Content_nav_Commodity_price>p:nth-child(2){
+	font-size: 20px;
+	color: #84888b;
+	font-weight: bold;
+	padding: 10px 0;
+}
+.Content_nav_Commodity_price>p:nth-child(3){
+	font-size: 15px;
+	color: #84888b;
+	font-weight: bold;
+}
+.Content_nav_Commodity_price>p:nth-child(4){
+	font-size: 30px;
+	color: #003150;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.Content_nav_Commodity_price>div{
+	width: 160px;
+	height: 25px;
+	color: #fff;
+	background:#003150;
+	margin: auto;
+	line-height: 25px;
+	margin-bottom: 30px;
+	
+}

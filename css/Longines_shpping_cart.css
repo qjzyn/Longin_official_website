@@ -1,0 +1,215 @@
+.nav{
+	/*height: 500px;	*/			/*测试*/
+	/*background: red;*/			/*测试*/
+	width: 1500px;
+	margin:  auto;
+}
+/*面包屑导航*/
+.path{
+	background: #EFF1F3;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	margin-bottom: 0;
+	line-height: 20px; 	
+	display: flex;
+	padding-left: 50px;
+    border-bottom: 3px solid #d4d6d9;
+}
+.path_li + .path_li::before{
+	content: "/";
+	display: inline-block;
+	color: #003150;
+}
+.path_li>a{
+	color: #003150;
+	padding-right: 5px;
+}
+/*我的购物车*/
+.nav_2{
+	background: #fff;
+	
+}
+.nav_2_01{
+	padding:30px 50px;
+	
+	
+}
+.nav_2_01_lift{
+	display: inline-block;
+	/*background: red;*/			/*测试*/
+	width: 500px;
+}
+.nav_2_01_lift>h1{
+	font-size: 50px;
+	color: #003150;
+	margin-bottom: 15px;
+}
+.nav_2_01_right{
+	float: right;
+	display: inline-block;
+	/*background: green;	*/			/*测试*/
+	width: 500px;
+	
+}
+.nav_2_01_lift_safety>span:nth-child(2){
+	margin-left: 15px;
+}
+/*继续购物按钮*/
+.login{
+	text-align: right;
+}
+.login>button{
+    position: relative;
+    height: 90px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 600;
+	/*border: 1px solid red;*/
+	background: #fff;
+    border: 1px solid #c7ccd0;
+    color: #003150;
+}
+.login>button>span{
+	/*border: 1px solid red ;*/									/*测试*/
+	width: 50px;
+	height: 35px;
+	display: inline-block;
+}
+.login_button_span_right{
+	margin-left: 240px;
+	
+}
+.login>button>span>img,.login>button>span>p{
+	/*border: 1px solid yellow;*/							/*测试*/
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	line-height: 50px;
+	font-size: 1.2rem;dis
+}
+.login>button:hover{
+	background: #003150;
+	color: #fff;
+	transition:all	ease	0.3s;
+}
+/*第三部分*/
+.nav_3{
+	background: red;
+	/*height: 300px;*/		/*测试*/
+}
+.nav_3_kuang{
+	margin-top:50px;
+	background: yellow;
+	width: 1400px;
+	margin: 0 auto;
+}
+.nav_3_kuang_left{
+	border: 1px solid #0000FF;
+	width: 900px;
+	display:inline-block ;
+}
+.nav_3_kuang_right{
+	border: 1px solid green;
+	width: 495px;
+	display: inline-block;
+}
+.nav_3_kuang_left_shangpin{
+	background: #fff;
+	width:850px;
+}
+
+
+/*购物车*/
+.redcolor{
+	color: red;
+}
+.title{
+	text-align: center;
+	position: relative;
+	font-weight: normal;
+	margin-bottom: 30px;
+	color: #666;
+}
+.title:after,.title:before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	width: 45%;
+	background: #999;
+	height: 1px;
+}
+.title:before{
+	left: 0;
+}
+.title:after{
+	right: 0;
+}
+
+.tab thead{
+	background-color: #999;
+	color: #fff;
+}
+.tab thead th{
+	padding: 10px 0;
+	font-weight: normal;
+}
+.tab td{
+	text-align: center;
+	padding: 10px 0;
+}
+.goods{
+	/*width: 40%;*/
+	position: relative;
+	width: 400px;
+	height: 300px;
+}
+.goods-left{
+	/*width: 20%;*/
+	float: left;
+	width: 250px;
+}
+/*.goods-left>p{
+	line-height: 300px;
+	width: 100px;
+}*/
+.goods-right {
+	/*width: 78%;
+	float: right;
+	text-align: left;*/
+}
+.goods-right>p:first-child{
+	line-height: 300px;
+}
+.goods-right .tip{
+	color: #999;
+	position: absolute;
+	bottom: 10px;
+	font-size: 12px;
+}
+.num input{
+	width: 50px;
+	text-align: center;
+}
+.num a{
+	color: #333;
+	text-decoration: none;
+}
+.del{
+	cursor: pointer;
+}
+.footer td{
+	border-top: 1px solid #ddd;
+}
+.footer td:nth-child(2){
+	text-align: left;
+}
+.footer td:nth-child(3){
+	text-align: right;
+}
+.footer .btn{
+	background-color: red;
+	color: #fff;
+	padding: 10px 40px;
+	margin-left: 20px;
+	border: 0;
+}
